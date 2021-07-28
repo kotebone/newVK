@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class PostInfo {
+public class Post {
     private int postId; // идентификатор записи
     private int userId; // идентификатор пользователя, создавшего пост
     private int wallId; // идентификатор стены, на которой находится пост
