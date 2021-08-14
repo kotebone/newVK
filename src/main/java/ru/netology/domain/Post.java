@@ -2,6 +2,7 @@ package ru.netology.domain;
 
 public class Post {
     private int postId; // идентификатор записи
+    private int ownerId; // идентификатор владельца стены, на которой размещена запись
     private int userId; // идентификатор пользователя, создавшего пост
     private int wallId; // идентификатор стены, на которой находится пост
     private int date; // дата публикации поста
@@ -13,7 +14,7 @@ public class Post {
     private int likeId; // идентификатор лайка
     private boolean canPost; // может ли пользователь оставлять запись на текущей стене
 
-    // правка с комментария преподавателя
+    // правка с комментарием преподавателя
     private CommentsInfo commentsInfo;
     private LikesInfo likesInfo;
     private RepostInfo repostInfo;
